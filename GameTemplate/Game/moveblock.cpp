@@ -21,7 +21,7 @@ bool moveblock::Start()
 	m_skinModelData.Load(L"modelData/backgound/blockColli.cmo");
 	m_skinModel.Init(m_skinModelData);
 
-	m_moveSpeed.z = 20;
+	//m_moveSpeed.z = 20;
 
 	m_skinModelRender->SetScale(scale);
 	m_skinModelRender->SetPosition(m_position);
