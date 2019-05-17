@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{ed0b04a6-fecd-4a2c-a462-59a8f4639f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Assets\modelData">
+      <UniqueIdentifier>{06086914-6aa4-4cad-9b07-6f9d357f04df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sprite">
+      <UniqueIdentifier>{a6ce300a-b532-440d-b914-b4661d3015ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\modelData\Theif">
+      <UniqueIdentifier>{f0683f9c-ae60-4f8e-84ea-15d8f7bd5ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\modelData\backgound">
+      <UniqueIdentifier>{ec3a0dc0-288e-4d62-94af-07e4eccc8537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sound">
+      <UniqueIdentifier>{c35211a0-f6b4-4079-9dbc-253d34459a31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="title.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="grund.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Coin2.cpp" />
+    <ClCompile Include="hata.cpp" />
+    <ClCompile Include="CoinHUD.cpp" />
+    <ClCompile Include="Clear.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="grund2.cpp" />
+    <ClCompile Include="Enemy2.cpp" />
+    <ClCompile Include="moveblock.cpp" />
+    <ClCompile Include="kabe.cpp" />
+    <ClCompile Include="KABEd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="title.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="grund.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="Coin2.h" />
+    <ClInclude Include="hata.h" />
+    <ClInclude Include="CoinHUD.h" />
+    <ClInclude Include="Clear.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="grund2.h" />
+    <ClInclude Include="Enemy2.h" />
+    <ClInclude Include="moveblock.h" />
+    <ClInclude Include="kabe.h" />
+    <ClInclude Include="KABEd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\modelData\unityChan.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\Theif\Thethief_H.FBX">
+      <Filter>Assets\modelData\Theif</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\grund.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\block.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\coinG.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\blockColli.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\hatahata.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\Enemy.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\floer.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\hako.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\backgound\kabe.fbx">
+      <Filter>Assets\modelData\backgound</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\sprite\dummy.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\GAMECLEAR.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\sprite\title.png">
+      <Filter>Assets\sprite</Filter>
+    </Image>
+    <Image Include="Assets\sprite\mu.png">
+      <Filter>Assets\sprite</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\sound\coinGet.wav">
+      <Filter>Assets\sound</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
